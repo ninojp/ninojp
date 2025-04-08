@@ -1,0 +1,74 @@
+{
+    "areasTI": [
+        {
+            "id": 1,
+            "areaNome": "Programação",
+            "descricao": "",
+            "srcImg": "./imgs/alura/programacao.svg",
+            "corPadrao": "#00C86F"
+        },
+        {
+            "id": 2,
+            "areaNome": "Front-End",
+            "descricao": "",
+            "srcImg": "./imgs/alura/front-end.svg",
+            "corPadrao": "#4EB7E6"
+        },
+        {
+            "id": 3,
+            "areaNome": "Cyber Security",
+            "descricao": "",
+            "srcImg": "./imgs/alura/devops.svg",
+            "corPadrao": "#FF4F54"
+        },
+        {
+            "id": 4,
+            "areaNome": "Design e UX",
+            "descricao": "",
+            "srcImg": "./imgs/alura/design-ux.svg",
+            "corPadrao": "#9d0273"
+        },
+        {
+            "id": 5,
+            "areaNome": "Sistemas Operacionais",
+            "descricao": "",
+            "srcImg": "./imgs/OS-buddies.webp",
+            "corPadrao": "#620010"
+        },
+        {
+            "id": 6,
+            "areaNome": "Blockchain e Cripto Ativos",
+            "descricao": "",
+            "srcImg": "./imgs/bitcoin_1920.jpg",
+            "corPadrao": "#fff461d8"
+        },
+        {
+            "id": 7,
+            "areaNome": "Hardware",
+            "descricao": "",
+            "srcImg": "./imgs/tecnico_computadores.jpg",
+            "corPadrao": "#020017"
+        },
+        {
+            "id": 8,
+            "areaNome": "Redes",
+            "descricao": "",
+            "srcImg": "./imgs/computadores.jpg",
+            "corPadrao": "#005203"
+        },
+        {
+            "id": 9,
+            "areaNome": "Data Science",
+            "descricao": "",
+            "srcImg": "./imgs/alura/data-science.svg",
+            "corPadrao": "#9CD33C"
+        },
+        {
+            "id": 10,
+            "areaNome": "Inteligência Artificial",
+            "descricao": "",
+            "srcImg": "./imgs/alura/inteligencia-artificial.svg",
+            "corPadrao": "#7B71FF"
+        }
+    ]
+}

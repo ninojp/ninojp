@@ -1,13 +1,116 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nino JP</title>
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <script src="./src/Views/index.js" type="module"></script>
+</head>
+<body>
+    <!-- <div class="divContainerBody"> -->
+        <header class="linearGradiente">
+            <div>
+                <a href="./index.html">
+                    <img src="./imgs/Logo_Dtudo_2022-300p.png">
+                </a>
+            </div>
+            <div>
+                <h1>Nino JP - Portfólio</h1>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./src/Views/exibir-markdown.html">Markdown-cursos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <nav>
+            <ul class="ulMenuAreasTI">
+                <li id="menuDataScienceId">Data Science</li>
+                <li id="menuProgramacaoId">Programação</li>
+                <li id="menuFrontEndId">Front-End</li>
+                <li id="menuCyberSecurityId">Cyber Security</li>
+                <li id="menuDesignEUXId">Design e UX</li>
+                <li id="menuInteligenciaArtificialId">I.A</li>
+                <li id="menuBlockchainECriptoAtivosId">Blockchain</li>
+                <li id="menuHardwareId">Hardware</li>
+                <li id="menuRedesId">Redes</li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Portfólio - NinoJP</h2>
+                <p>Minha idéia aqui é juntar e expor todos os Cursos, Formações, Certificados, Diplomas e afíns do meu portfólio.</p>
+                <div class="divContainerAreasTI">
+                    <!-- <div class="divCardAreaTI">
+                        <h3>Data Science</h3>
+                        <div class="divImgSGVAreaTI">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 102"><g fill="none" fill-rule="evenodd"><circle cx="51" cy="51" r="51" fill="#9CD33C"/><g stroke="#242938" stroke-linecap="square" stroke-width="3" transform="translate(14 14)"><ellipse cx="37.436" cy="36.661" fill="#FEFFFB" rx="13.831" ry="37.72" transform="rotate(-45 37.436 36.66)"/><ellipse cx="37.438" cy="36.659" fill="#FEFFFB" rx="13.831" ry="37.72" transform="rotate(45 37.438 36.659)"/><ellipse cx="37.425" cy="36.648" rx="13.831" ry="37.72" transform="rotate(-45 37.425 36.648)"/></g><g stroke="#242938" stroke-width="3" transform="translate(40 39)"><rect width="19" height="21" x="1.5" y="1.5" fill="#A9EB35" rx="4"/><path stroke-linecap="square" d="M1.5 8.609h19m-19 7h19"/></g></g></svg>
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Programação</h3>
+                        <div class="divImgSGVAreaTI">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 102"><g fill="none" fill-rule="evenodd"><circle cx="51" cy="51" r="51" fill="#00C86F"/><path fill="#0AE382" d="M21 38h61V24H21z"/><path fill="#F8FFF9" d="M21 38h61v39H21z"/><g stroke="#242938" stroke-linecap="square" stroke-width="3"><path d="M31.5 48.5l8 8-8 8m12 0h12m-26-33h4m6 0h4m19 0h11m-52 7h60"/><path d="M21.5 24.5h60v52h-60z"/></g><path fill="#0AE382" d="M21 38h61V24H21z"/><path fill="#F8FFF9" d="M21 38h61v39H21z"/><g stroke="#242938" stroke-linecap="square" stroke-width="3"><path d="M31.5 48.5l8 8-8 8m12 0h12m-26-33h4m6 0h4m19 0h11m-52 7h60"/><path d="M21.5 24.5h60v52h-60z"/></g></g></svg>
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Front-End</h3>
+                        <div class="divImgSGVAreaTI">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 102"><g fill="none" fill-rule="evenodd"><circle cx="51" cy="51" r="51" fill="#4EB7E6"/><g transform="translate(21 24)"><path fill="#F0FAFF" d="M0 14h61v39H0z"/><path fill="#09ABF3" d="M0 14h61V0H0z"/><path stroke="#242938" stroke-linecap="square" stroke-width="3" d="M20.5 28.5l-4 4 4 4m20-8l4 4-4 4m-14 4l8-16"/><circle cx="8.5" cy="7.5" r="2.5" fill="#242938"/><circle cx="15.5" cy="7.5" r="2.5" fill="#242938"/><path stroke="#242938" stroke-linecap="square" stroke-width="3" d="M.5 14.5h60M.5.5h60v52H.5z"/></g></g></svg>
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Cyber Security</h3>
+                        <div class="divImgSGVAreaTI">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 102"><g fill="none" fill-rule="evenodd"><circle cx="51" cy="51" r="51" fill="#F16165"/><path fill="#FF4F54" stroke="#242938" stroke-linecap="square" stroke-width="3" d="M62.315 44.658c1.275-.223 2.246-.335 2.914-.335 6.049 0 11.143 4.095 12.417 9.765.636-.157 1.273-.315 1.91-.315 4.457 0 7.96 3.465 7.96 7.875s-3.503 7.875-7.96 7.875h-17.24V44.658z"/><path fill="#FFF4F4" d="M31.515 23h38.769v56.215H31.515z"/><g transform="translate(46.208 55.077)"><circle cx="8.264" cy="8.264" r="5.785" stroke="#242938" stroke-linecap="square" stroke-width="3"/><path stroke="#242938" stroke-linecap="square" stroke-width="3" d="M8.264 2.48V0m4.09 4.173l1.753-1.753m-.059 5.844h2.716m-4.41 4.09l1.753 1.753m-5.843-.059v2.48m-4.091-4.174L2.42 14.107m.06-5.843H0m4.173-4.091L2.42 2.42"/><circle cx="8.264" cy="8.264" r="1" stroke="#242938" stroke-linecap="square" stroke-width="3"/><circle cx="8.264" cy="8.264" r="1" fill="#242938" fill-rule="nonzero"/></g><path stroke="#242938" stroke-width="3" d="M30 39.045V23h39.513v56.215H30v-8.723z"/><path stroke="#242938" stroke-linecap="square" stroke-width="3" d="M46.146 30.5h17m-17 6.785h17m-17 6.785h17"/></g></svg>
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Design e UX</h3>
+                        <div class="divImgSGVAreaTI">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 102"><g fill="none" fill-rule="evenodd"><circle cx="51" cy="51" r="51" fill="#DC6EBE"/><path fill="#FFF0FB" stroke="#242938" stroke-linecap="square" stroke-width="3" d="M31.139 30.139H71.86V70.86H31.139z"/><path stroke="#242938" stroke-linecap="square" stroke-width="3" d="M24 30.14h4.525M24 70.86h4.525M74 30.14h4.525M74 70.86h4.525M31.14 23v4.525M71.86 23v4.525M31.14 73v4.525M71.86 73v4.525"/><g stroke="#242938" stroke-linecap="square" stroke-width="3" transform="translate(32 38)"><path fill="#E561C1" d="M.476 11.89S8.086.476 19.5.476c11.415 0 19.024 11.414 19.024 11.414S30.914 23.305 19.5 23.305C8.085 23.305.476 11.89.476 11.89z"/><circle cx="19.5" cy="11.89" r="5.707" fill="#FFF0FB"/></g></g></svg>
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Inteligência Artificial</h3>
+                        <div class="divImgSGVAreaTI">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 65 65"><g clip-path="url(#clip0_5175_247)"><path fill="#7B71FF" d="M32.5 65C50.45 65 65 50.45 65 32.5S50.45 0 32.5 0 0 14.55 0 32.5 14.55 65 32.5 65z"/><rect width="27.999" height="29.646" x="18.647" y="21.275" fill="#F2F0FF" rx="5.49"/><path fill="#7B71FF" d="M27.916 14.618h-3.168v7.604h3.168v-7.604zm6.337-6.971h-3.168v12.674h3.168V7.647zm6.971 5.07h-3.168v9.505h3.168v-9.505z"/><path fill="#7B71FF" fill-rule="evenodd" d="M31.35 19.494V7.647h3.28v11.847" clip-rule="evenodd"/><path stroke="#242938" stroke-linecap="square" stroke-width="2.089" d="M31.35 19.494V7.647h3.28v11.847"/><path fill="#7B71FF" fill-rule="evenodd" d="M24.787 21.962V14.21h3.281v6.016" clip-rule="evenodd"/><path stroke="#242938" stroke-linecap="square" stroke-width="2.089" d="M24.787 21.962V14.21h3.281v6.016"/><path fill="#7B71FF" fill-rule="evenodd" d="M37.912 20.226v-8.204h3.282v9.94" clip-rule="evenodd"/><path stroke="#242938" stroke-linecap="square" stroke-width="2.089" d="M37.912 20.226v-8.204h3.282v9.94"/><circle cx="23.862" cy="36.372" r="2.47" fill="#7B71FF"/><circle cx="30.45" cy="42.411" r="2.47" fill="#7B71FF"/><circle cx="30.45" cy="29.784" r="2.47" fill="#7B71FF"/><circle cx="40.332" cy="29.784" r="2.47" fill="#7B71FF"/><path fill="#242938" d="M41.98 20.177H23.862A6.87 6.87 0 0017 27.039v18.118a6.87 6.87 0 006.862 6.862H41.98a6.87 6.87 0 006.862-6.862V27.039a6.87 6.87 0 00-6.862-6.862zm3.98 24.98a3.985 3.985 0 01-3.98 3.98H23.862a3.985 3.985 0 01-3.981-3.98v-7.778h1.017a3.567 3.567 0 003.323 2.28c.514 0 1.002-.11 1.443-.306l1.779 1.778a3.537 3.537 0 00.158 3.203 3.54 3.54 0 002.15 1.676 3.542 3.542 0 002.706-.336 3.54 3.54 0 001.675-2.151 3.565 3.565 0 00-2.486-4.38 3.546 3.546 0 00-2.39.179l-1.78-1.78a3.544 3.544 0 00-.001-2.888l1.778-1.778a3.638 3.638 0 001.443.306A3.57 3.57 0 0034.02 30.9h2.55c.064.164.14.323.228.478a3.541 3.541 0 002.15 1.676 3.542 3.542 0 002.706-.336 3.541 3.541 0 001.675-2.15 3.565 3.565 0 00-2.486-4.381 3.567 3.567 0 00-4.27 2.153H34.02a3.558 3.558 0 00-2.375-2.153 3.566 3.566 0 00-4.38 2.486 3.533 3.533 0 00.178 2.392l-1.779 1.779a3.542 3.542 0 00-1.444-.307 3.567 3.567 0 00-3.322 2.281H19.88V27.04a3.985 3.985 0 013.98-3.981h18.12a3.985 3.985 0 013.98 3.98v18.118zm-20.419-9.059c0 .729-.593 1.321-1.32 1.321a1.322 1.322 0 01-.001-2.642c.728 0 1.321.593 1.321 1.321zm4.506 5.33a1.312 1.312 0 011.003-.125 1.323 1.323 0 01.301 2.422 1.314 1.314 0 01-1.003.125 1.314 1.314 0 01-.798-.621 1.314 1.314 0 01-.125-1.003c.094-.34.315-.624.622-.799zm-.622-12.16a1.323 1.323 0 011.625-.922c.702.194 1.116.923.922 1.625a1.323 1.323 0 01-2.422.302 1.316 1.316 0 01-.125-1.004zm9.197 0a1.323 1.323 0 011.625-.922 1.323 1.323 0 01.302 2.423 1.313 1.313 0 01-1.003.125 1.314 1.314 0 01-.798-.621 1.313 1.313 0 01-.126-1.004z"/><path fill="#7B71FF" stroke="#000" stroke-width=".436" d="M39.825 44.53c.509-.219 1.614-.917 1.963-1.964l2.836-.873c.218.291 1.222.916 3.49 1.091 2.27.175 2.255 2.981 1.964 4.363l1.09 2.4-1.308 1.963-1.527.436-1.745 2.181h-1.964l-1.745-1.09h-1.963l-1.527-1.527.436-1.964-1.09-2.617 1.09-2.4z"/><path fill="#000" d="M44.026 42.435c.453 0 .872.144 1.215.388-.902.47-1.731 1.061-2.611 1.57l.698 1.208c1.1-.635 2.13-1.43 3.323-1.889a2.095 2.095 0 012.832 2.157c-.858-.546-1.785-.97-2.665-1.477l-.698 1.21c1.1.635 2.305 1.129 3.297 1.933a2.095 2.095 0 01-.452 3.53c.045-1.016-.053-2.03-.053-3.046h-1.396c0 1.27.175 2.561-.026 3.823a2.095 2.095 0 01-3.284 1.373c.902-.47 1.733-1.06 2.612-1.568l-.698-1.21c-1.1.636-2.13 1.432-3.323 1.89a2.095 2.095 0 01-2.832-2.157c.859.545 1.785.968 2.665 1.477l.698-1.21c-1.1-.635-2.305-1.129-3.298-1.933a2.096 2.096 0 01.453-3.531c-.045 1.016.052 2.03.052 3.046h1.397c0-1.269-.175-2.56.025-3.822a2.095 2.095 0 012.069-1.762zm2.648-.18a3.491 3.491 0 00-5.968 1.193 3.49 3.49 0 00-1.95 5.765 3.492 3.492 0 004.019 4.571 3.49 3.49 0 005.967-1.194 3.491 3.491 0 001.95-5.764 3.491 3.491 0 00-4.018-4.571z"/></g><defs><clipPath id="clip0_5175_247"><path fill="#fff" d="M0 0h65v65H0z"/></clipPath></defs></svg>
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Blockchain e Cripto Ativos</h3>
+                        <div class="divImgSGVAreaTI">
+                            <img src="./imgs/bitcoin_1920.jpg" alt="BlockChain e Cripto Ativos">
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Hardware</h3>
+                        <div class="divImgSGVAreaTI">
+                            <img src="./imgs/tecnico_computadores.jpg" alt="HardWare">
+                        </div>
+                    </div>
+                    <div class="divCardAreaTI">
+                        <h3>Redes</h3>
+                        <div class="divImgSGVAreaTI">
+                            <img src="./imgs/computadores.jpg" alt="HardWare">
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </main>
+        <footer class="footerContainer">
+            <div>
+                <p>Criado 06/04/2025 - NinoJP</p>
+            </div>
+            <div>
+                <p id="dataRodape"></p>
+            </div>
+        </footer>
+    <!-- </div> -->
+</body>
 </html>
