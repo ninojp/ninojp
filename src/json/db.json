@@ -5,7 +5,12 @@
             "areaNome": "Programação",
             "descricao": "",
             "srcImg": "./imgs/alura/programacao.svg",
-            "corPadrao": "#00C86F"
+            "corPadrao": "#00C86F",
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 2,
@@ -32,14 +37,14 @@
             "id": 5,
             "areaNome": "Sistemas Operacionais",
             "descricao": "",
-            "srcImg": "./imgs/OS-buddies.webp",
-            "corPadrao": "#620010"
+            "srcImg": "./imgs/OS-buddies_300px.webp",
+            "corPadrao": "#b00000"
         },
         {
             "id": 6,
             "areaNome": "Blockchain e Cripto Ativos",
             "descricao": "",
-            "srcImg": "./imgs/bitcoin_1920.jpg",
+            "srcImg": "./imgs/bitcoin_398px.webp",
             "corPadrao": "#fff461d8"
         },
         {
@@ -47,7 +52,7 @@
             "areaNome": "Hardware",
             "descricao": "",
             "srcImg": "./imgs/tecnico_computadores.jpg",
-            "corPadrao": "#020017"
+            "corPadrao": "#d5feff"
         },
         {
             "id": 8,
@@ -70,5 +75,20 @@
             "srcImg": "./imgs/alura/inteligencia-artificial.svg",
             "corPadrao": "#7B71FF"
         }
-    ]
+    ],
+    "formacoes": [
+        {
+            "idFormacao": 1,
+            "nome": "Formação Alura: A partir do zero - iniciante em programação",
+            "descricao": "O caminho das pedras para entrar no universo da programação e começar com a criação de sites utilizando as linguagens populares CSS, HTML e JavaScript.",
+            "srcImg": "./imgs/alura/formacao-js.svg"
+        }
+    ],
+    "cursos": [],
+    "artigos": [],
+    "videos": [],
+    "sites": [],
+    "certificados": [],
+    "diplomas": [],
+    "projetos": []
 }
