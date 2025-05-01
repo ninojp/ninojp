@@ -41,7 +41,7 @@ body::before {
     background-position: center;
     background-size: cover;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.8;
     filter: blur(1px); 
 }
 .divContainerMenuAreasTI{
@@ -52,24 +52,24 @@ body::before {
     background: var(--linearGradiente2);
     /* background: #031022; */
     opacity: 0.94;
-    padding: 1rem;
+    padding: 2rem;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
     background: var(--linearGradiente);
     opacity: 0.9;
 }
 #imgLogoDtudo{
-    width: 150px;
+    width: 190px;
 }
 
 /* Menu Lateral de Navegação */
 .navMenuAreasTI {
-    width: 400px;
+    width: 270px;
     background: var(--linearGradiente);
 }
 .divImgLogoDtudo{
