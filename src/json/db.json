@@ -84,8 +84,12 @@
             "srcImg": "./imgs/alura/formacao-js.svg",
             "slugUrl": "formacao-alura-a-partir-do-zero-iniciante-em-programacao.html",
             "areaId": 1,
-            "cursosIds": [1],
-            "artigosIds": [1],
+            "cursosIds": [
+                1
+            ],
+            "artigosIds": [
+                1
+            ],
             "videosIds": [],
             "sitesIds": [],
             "certificadosIds": [],
@@ -139,22 +143,72 @@
     "artigos": [
         {
             "idArtigo": 1,
+            "nome": "Calendário de estudo para desenvolvimento da carreira",
+            "descricao": "Sente falta de tempo e não consegue programar uma rotina de estudo? Então conheça o calendário de estudo de um profissional de tecnologia.",
+            "linkArtigo": "https://www.alura.com.br/artigos/o-dia-a-dia-de-um-profissional-que-aprende-o-calendario-de-estudo",
+            "areaId": 1,
+            "formacaoId": 1
+        },
+        {
+            "idArtigo": 2,
             "nome": "5 dúvidas de quem quer iniciar na carreira de programação",
             "descricao": "Artigo sobre as dúvidas mais comuns de quem quer iniciar na carreira de programação.",
-            "srcImg": "",
             "linkArtigo": "https://www.alura.com.br/artigos/5-duvidas-de-quem-quer-iniciar-na-carreira-de-programacao",
             "areaId": 1,
-            "formacaoId": 1,
-            "cursoId": 1
+            "formacaoId": 1
+        },
+        {
+            "idArtigo": 3,
+            "nome": "Como escolher minha carreira em TI?",
+            "descricao": "E se existem várias linguagens, quantas devo aprender? Uma, duas, três, todas que eu puder?.",
+            "linkArtigo": "https://www.alura.com.br/artigos/como-escolher-minha-carreira-em-ti",
+            "areaId": 1,
+            "formacaoId": 1
+        },
+        {
+            "idArtigo": 4,
+            "nome": "Trabalhando com caminhos e pastas no terminal",
+            "descricao": "Neste artigo vamos entender como funcionam os caminhos de diretórios do sistema operacional e como evitar as cascas de banana que podemos enfrentar quando precisamos utilizar esses caminhos",
+            "linkArtigo": "https://www.alura.com.br/artigos/trabalhando-com-caminhos-e-pastas-no-terminal",
+            "areaId": 1,
+            "formacaoId": 1
         }
     ],
-    "videos": [],
+    "videos": [
+        {
+            "idVideo": 1,
+            "nome": "Ritmo de Estudos (video)",
+            "descricao": "Neste vídeo se destaca a importância do estabelecimento de um calendário de estudos aderente à disponibilidade real de tempo de cada estudante, bem como da relevância da disciplina em seguir um plano de estudos dentro do processo de aprendizagem.",
+            "srcImg": "icone-alura+.svg",
+            "linkVideo": "https://cursos.alura.com.br/extra/alura-mais/ritmo-de-estudos-c18",
+            "areaId": 1,
+            "formacaoId": 1
+        },
+        {
+            "idVideo": 2,
+            "nome": "Como posso estudar melhor? #HipstersPontoTube (video)",
+            "descricao": "Como se organizar para estudar? É melhor estudar todos os dias um pouco ou escolher dias específicos? E para aprender muita coisa de uma só vez, qual a melhor técnica? Confira as dicas de aprendizagem do Guilherme Silveira no vídeo! ",
+            "srcImg": "icone-site.svg",
+            "linkVideo": "https://www.youtube.com/watch?v=Is6c9KSGCbk&ab_channel=Alura",
+            "areaId": 1,
+            "formacaoId": 1
+        },
+        {
+            "idVideo": 3,
+            "nome": "O que é Back-End e Front-End",
+            "descricao": "Neste vídeo, mergulharemos nas duas facetas essenciais da construção de websites e aplicativos: o front-end e o back-end.",
+            "srcImg": "icone-alura+.svg",
+            "linkVideo": "https://cursos.alura.com.br/extra/alura-mais/o-que-e-back-end-e-front-end-c9076",
+            "areaId": 1,
+            "formacaoId": 1
+        }
+    ],
     "sites": [],
     "certificados": [
         {
             "idCertificado": 1,
             "nome": "Arquitetura de computadores por trás de como seu programa funciona",
-            "descricao": "(Este curso finalizado em 08/07/2023, mas foi retirado da plataforma, 'ao menos eu não encontrei')\n Aprenda como funciona a arquitetura de computadores e como isso afeta o desempenho do seu código.",
+            "descricao": "(Este curso finalizado em 08/07/2023, mas foi retirado da plataforma)\n Aprenda como funciona a arquitetura de computadores e como isso afeta o desempenho do seu código.",
             "srcImg": "Arquitetura de computadores, por trás de como seu programa funciona.pdf",
             "slugUrl": "curso-arquitetura-computadores.html",
             "areaId": 7,
